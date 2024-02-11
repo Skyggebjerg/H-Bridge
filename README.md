@@ -1,4 +1,8 @@
 # H-Bridge
+
+![M5PPT-EN](https://github.com/Skyggebjerg/H-Bridge/assets/8426075/2371faae-6e87-4f87-ab14-c3cc6ab40d26)
+
+
 Hbridge Unit is a highly efficient DC motor drive module designed to provide reliable motor control functionality. It incorporates the "STM32F030+RZ7899" scheme, enabling precise control of DC motors. The module communicates with the M5 host via I2C, allowing for PWM control of motor speed as well as forward, backward, and braking functions.
 
 Equipped with robust protection features, the Hbridge Unit ensures the safe operation of the motor. It includes over-current, over-voltage, and over-temperature protection functions, providing a reliable and secure drive solution.
