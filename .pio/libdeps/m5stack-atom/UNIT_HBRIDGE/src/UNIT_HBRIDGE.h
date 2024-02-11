@@ -31,7 +31,7 @@ class UNIT_HBRIDGE {
 
    public:
     bool begin(TwoWire* wire = &Wire, uint8_t addr = HBRIDGE_ADDR,
-               uint8_t sda = 21, uint8_t scl = 22, uint32_t speed = 100000L);
+               uint8_t sda = 26, uint8_t scl = 32, uint32_t speed = 100000L);
     uint8_t getDriverDirection(void);
     uint8_t getDriverSpeed8Bits(void);
     uint16_t getDriverSpeed16Bits(void);
