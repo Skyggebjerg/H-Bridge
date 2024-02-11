@@ -8,8 +8,13 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/include",
-                "C:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/src",
+                "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/include",
+                "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/src",
+                "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/.pio/libdeps/m5stack-atom/UNIT_HBRIDGE/src",
+                "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/.pio/libdeps/m5stack-atom/M5Atom/src",
+                "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/.pio/libdeps/m5stack-atom/FastLED/src",
+                "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -223,7 +228,6 @@
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -233,14 +237,18 @@
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/include",
-                    "C:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/src",
+                    "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/include",
+                    "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/src",
+                    "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/.pio/libdeps/m5stack-atom/UNIT_HBRIDGE/src",
+                    "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/.pio/libdeps/m5stack-atom/M5Atom/src",
+                    "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                    "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/H-Bridge/.pio/libdeps/m5stack-atom/FastLED/src",
+                    "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -454,7 +462,6 @@
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                    "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -464,7 +471,6 @@
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                    "C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     ""
                 ]
             },

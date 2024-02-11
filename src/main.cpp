@@ -29,7 +29,7 @@ void setup() {
 
 void loop() {
     M5.update();
-    if (M5.BtnA.wasPressed()) {
+    if (M5.Btn.wasPressed()) {
         driver.setDriverDirection(1);
         driver.setDriverSpeed8Bits(127);
 /*     } else if (M5.BtnB.wasPressed()) {
