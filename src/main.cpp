@@ -2,7 +2,6 @@
 *******************************************************************************
 * Product: Hbridge Unit
 * getMotorCurrent() only support in v1.1 function
-* Date: 2023/8/9
 *******************************************************************************
 */
 
@@ -21,7 +20,6 @@ void setup() {
 
 void loop() {
         for(int i = 0; i < 10; i++){
-
         driver.setDriverDirection(1); // Set peristaltic pump in forward to take out BR content
         driver.setDriverSpeed8Bits(255); //Run pump in full speed
         Serial.print("Forward pump for 5 secs #: ");
@@ -40,5 +38,4 @@ void loop() {
         delay(1000);         
     //Serial.println("VIN IN: " + String(driver.getAnalogInput(_12bit) / 4095.0f * 3.3f / 0.09f));
     //Serial.println("current: " + String(driver.getMotorCurrent())); 
-
 }
