@@ -9,6 +9,9 @@
 #include "M5Atom.h"
 #include "UNIT_HBRIDGE.h"
 
+int forsink = 4700;
+bool kogle = true;
+
 UNIT_HBRIDGE driver;
 
 void setup() {
@@ -19,6 +22,7 @@ void setup() {
 }
 
 void loop() {
+        
         for(int i = 0; i < 500; i++){
         driver.setDriverDirection(1); // Set peristaltic pump in forward to take out BR content
         driver.setDriverSpeed8Bits(128); //Run pump in half speed
@@ -26,8 +30,25 @@ void loop() {
         Serial.println(i);
         delay(30);
         driver.setDriverSpeed8Bits(0);  //Stop pump 
-        Serial.println("Wait for 4.7 secs");     
-        delay(4700);         
+         
+        M5.update(); // need to call update()
+        if(M5.Btn.wasPressed())
+        {
+            kogle = !kogle;
+        }
+        
+        if(kogle) 
+            {
+                forsink = 4700;
+                Serial.println("Wait for 4.7 secs");
+            }
+        else
+            {
+                forsink = 100;
+                Serial.println("Wait for 100 msecs");
+            }
+        delay(forsink);
+        //delay(4700);         
         }
         
         for(int i = 0; i < 16; i++){
