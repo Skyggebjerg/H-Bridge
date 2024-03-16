@@ -9,7 +9,7 @@
 #include "M5Atom.h"
 #include "UNIT_HBRIDGE.h"
 
-int forsink = 4700;
+int forsink = 9400; //4700 = fast; 9400 = slow
 bool kogle = true;
 
 UNIT_HBRIDGE driver;
@@ -39,8 +39,8 @@ void loop() {
         
         if(kogle) 
             {
-                forsink = 4700;
-                Serial.println("Wait for 4.7 secs");
+                forsink = 9400;
+                Serial.println("Wait for 9.4 secs");
             }
         else
             {
