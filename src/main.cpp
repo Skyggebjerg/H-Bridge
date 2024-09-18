@@ -1,6 +1,6 @@
 /*
 *******************************************************************************
-* Product: Hbridge Unit
+* Product: Hbridge Unit FOR PEGASUS peristaltic effluent pumps
 * getMotorCurrent() only support in v1.1 function
 *******************************************************************************
 */
