@@ -9,7 +9,7 @@
 #include "M5Atom.h"
 #include "UNIT_HBRIDGE.h"
 
-int forsink = 9400; //4700 = fast; 9400 = slow
+int forsink = 2300; //4700 = fast; 9400 = slow
 bool kogle = true;
 
 UNIT_HBRIDGE driver;
@@ -22,7 +22,7 @@ void setup() {
 }
 
 void loop() {
-        
+        // This loop runs the pump in 30ms bursts for i iterations with delays that are dependent on button press that toggles fast/slow
         for(int i = 0; i < 500; i++){
         driver.setDriverDirection(1); // Set peristaltic pump in forward to take out BR content
         driver.setDriverSpeed8Bits(128); //Run pump in half speed
@@ -34,16 +34,16 @@ void loop() {
         M5.update(); // need to call update()
         if(M5.Btn.wasPressed())
         {
-            kogle = !kogle;
+            kogle = !kogle; // Toggles the fast/slow mode
         }
         
-        if(kogle) 
+        if(kogle) // Slow delay = normal running mode
             {
-                forsink = 9400;
+                forsink = 2300; //4700 = fast efflux 9400 = slow efflux
                 Serial.println("Wait for 9.4 secs");
             }
         else
-            {
+            { // Fast pumping for priming the pump + tubings
                 forsink = 100;
                 Serial.println("Wait for 100 msecs");
             }
